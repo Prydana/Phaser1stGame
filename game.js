@@ -115,6 +115,8 @@ function hitBomb (player, bomb)
     player.anims.play('turn');
 
     gameOver = true;
+    gameOverText = this.add.text(200, 130, 'Game Over', { fontSize: '60px', fill: '#000' })
+
 }
 function collectStar (player, star)
 {
